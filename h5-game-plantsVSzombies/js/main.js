@@ -7,7 +7,7 @@
 class Main {
   constructor () {
     let m = {
-      allSunVal: 9999,                           // 阳光总数量
+      allSunVal:9999,                           // 阳光总数量
       loading: null,                            // loading 动画对象
       sunnum: null,                             // 阳光实例对象
       cars: [],                                 // 实例化除草车对象数组
