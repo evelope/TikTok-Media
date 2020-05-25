@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>FanScape</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./layout.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./ionicons.min.css" media="all">
+    <script type="text/javascript" src="https://use.typekit.net/hto8ggy.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+
+  <div id="container"></div>
+
+  <div class="info_button" onclick="$('#visibility').toggle();">
+  </div>
+  <div id="visibility" class="info_content bot_left">
+    <a href="https://github.com/julesmoretti/fanscape"><span>Main Repo</span> - https://github.com/julesmoretti/fanscape</a><br/>
+    <a href="https://github.com/julesmoretti/fanscape/issues"><span>For Any Issues</span> - https://github.com/julesmoretti/fanscape/issues</a>
+    </div>
+  </div>
+
+  <div class="description">FanScape showcases your Instagram follower's geotagged images across the globe</div>
+
+  <script type="text/javascript" src="./jquery.min.js"></script>
+  <script type="text/javascript" src="./Detector.js"></script>
+  <script type="text/javascript" src="./three.min.js"></script>
+  <script type="text/javascript" src="./Tween.js"></script>
+  <script type="text/javascript" src="./globe.js"></script>
+  <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+
+    <div id="toHide">
+      <script type="text/javascript">
+        var container = document.getElementById( 'container' );  // Where to put the globe?
+        var globe = new DAT.Globe( container );  // Make the globe
+        globe.createPoints();  // Create the geometry
+        globe.animate();  // Begin animation
+
+        // hides all the script from DOM
+        $( document ).ready(function() {
+          $( '#toHide' ).remove();
+        });
+      </script>
+    </div>
+    <iframe width="200" height="200" src="https://instagram.com/accounts/logout" style="display:none;" />
+  </body>
+
+</html>
