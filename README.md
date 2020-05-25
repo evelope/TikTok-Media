@@ -8,6 +8,10 @@
 [植物大战僵尸](https://evelope.github.io/TikTok-Media/h5-game-plantsVSzombies)<br>
 <hr>
 
+[地球](https://evelope.github.io/TikTok-Media/fanScape)<br>
+<hr>
+
+
 ### 个人简介
 
 作者：贵飞
