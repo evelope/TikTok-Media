@@ -530,7 +530,7 @@ canvas {
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400");
 @font-face {
     font-family: 'Dino';
-    src: url("/assets/fonts/dino.woff2?v=1.1.1") format('woff2'), url("/assets/fonts/dino.woff?v=1.1.1") format('woff');
+    src: url("assets/fonts/dino.woff2?v=1.1.1") format('woff2'), url("assets/fonts/dino.woff?v=1.1.1") format('woff');
     font-weight: normal;
     font-style: normal
 }
