@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 343px;
+    height: 480px;
+    margin: 0 auto;
+    background: url(../images/bg.jpg);
+    position: relative;
+    overflow: hidden;
+    -webkit-animation: con 15s infinite linear;
+    -moz-animation: con 15s infinite linear;
+    -ms-animation: con 15s infinite linear;
+    -o-animation: con 15s infinite linear;
+    animation: con 15s infinite linear;
+}
+
+.startPage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.head {
+    width: 250px;
+    height: 77px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -125px;
+    -webkit-animation: head 2s ease-in-out infinite alternate;
+    -moz-animation: head 2s ease-in-out infinite alternate;
+    -ms-animation: head 2s ease-in-out infinite alternate;
+    -o-animation: head 2s ease-in-out infinite alternate;
+    animation: head 2s ease-in-out infinite alternate;
+}
+
+.bird1 {
+    position: absolute;
+    width: 40px;
+    height: 26px;
+    background: url(../images/bird0.png);
+    right: 0;
+    top: 25px;
+    -webkit-animation: birda .1s linear infinite alternate;
+    -moz-animation: birda .1s linear infinite alternate;
+    -ms-animation: birda .1s linear infinite alternate;
+    -o-animation: birda .1s linear infinite alternate;
+    animation: birda .1s linear infinite alternate;
+}
+
+.btnwrap {
+    position: absolute;
+    width: 100%;
+    top: 300px;
+    text-align: center;
+}
+
+.btnwrap button {
+    border: none;
+    outline: none;
+    width: 85px;
+    height: 29px;
+}
+
+.startBtn {
+    background: url(../images/start.jpg);
+    margin-right: 20px;
+}
+
+.submitBtn {
+    background: url(../images/submit.jpg);
+}
+
+.slidewrap {
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    top: 422px;
+    background: url(../images/slider.jpg);
+    -webkit-animation: slide 3s linear infinite;
+    -moz-animation: slide 3s linear infinite;
+    -ms-animation: slide 3s linear infinite;
+    -o-animation: slide 3s linear infinite;
+    animation: slide 3s linear infinite;
+}
+
+.gamewrap {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.flybird {
+    position: absolute;
+    width: 40px;
+    height: 29px;
+    left: 50px;
+    background: url(../images/down_bird0.png);
+}
+
+.downBird {
+    background: url(../images/down_bird0.png);
+    -webkit-animation: downBird .5s infinite;
+    -moz-animation: downBird .5s infinite;
+    -ms-animation: downBird .5s infinite;
+    -o-animation: downBird .5s infinite;
+    animation: downBird .5s infinite;
+}
+
+.upBird {
+    background: url(../images/up_bird0.png);
+    -webkit-animation: upBird .5s infinite;
+    -moz-animation: upBird .5s infinite;
+    -ms-animation: upBird .5s infinite;
+    -o-animation: upBird .5s infinite;
+    animation: upBird .5s infinite;
+}
+
+.colwrap {
+    position: absolute;
+    width: 100%;
+    height: 422px;
+    left: 0;
+    top: 0;
+}
+
+.colcon {
+    width: 62px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    /*left: 270px;*/
+}
+
+.coltop {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    background: url(../images/up_mod.png);
+}
+
+.tophead {
+    position: absolute;
+    width: 62px;
+    height: 60px;
+    background: url(../images/up_pipe.png);
+    bottom: 0;
+}
+
+.colbot {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    background: url(../images/down_mod.png);
+}
+
+.bothead {
+    position: absolute;
+    width: 62px;
+    height: 60px;
+    background: url(../images/down_pipe.png);
+    top: 0;
+}
+
+.over {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    z-index: 120;
+    top: 160px;
+    display: none;
+    -webkit-animation: over 2s infinite ease-in-out alternate;
+    -moz-animation: over 2s infinite ease-in-out alternate;
+    -ms-animation: over 2s infinite ease-in-out alternate;
+    -o-animation: over 2s infinite ease-in-out alternate;
+    animation: over 2s infinite ease-in-out alternate;
+}
+
+.over>span:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('../images/game_over.jpg') 0 0 no-repeat;
+    background-position: 50% 0;
+}
+
+.ok {
+    width: 96px;
+    height: 33px;
+    left: 50%;
+    position: absolute;
+    background: url('../images/ok.jpg') 0 0 no-repeat;
+    background-position: 50% 0;
+    transform: translateY(100px) translateX(-50%);
+    outline: none;
+    border: 0;
+}
+
+.scorewrap {
+    position: absolute;
+    z-index: 100000;
+}
+
+.scorewrap>img {
+    float: left;
+}

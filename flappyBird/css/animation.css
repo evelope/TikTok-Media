@@ -1,0 +1,314 @@
+@-webkit-keyframes con {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position: -343px;
+    }
+}
+
+@-moz-keyframes con {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position: -343px;
+    }
+}
+
+@-ms-keyframes con {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position: -343px;
+    }
+}
+
+@-o-keyframes con {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position: -343px;
+    }
+}
+
+@keyframes con {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position: -343px;
+    }
+}
+
+@-webkit-keyframes head {
+    0% {
+        -webkit-transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(0, 50px);
+    }
+}
+
+@-moz-keyframes head {
+    0% {
+        -moz-transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(0, 50px);
+    }
+}
+
+@-ms-keyframes head {
+    0% {
+        -ms-transform: translate(0, 0);
+    }
+    100% {
+        -ms-transform: translate(0, 50px);
+    }
+}
+
+@-o-keyframes head {
+    0% {
+        -o-transform: translate(0, 0);
+    }
+    100% {
+        -o-transform: translate(0, 50px);
+    }
+}
+
+@keyframes head {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 50px);
+    }
+}
+
+@-webkit-keyframes birda {
+    0% {
+        background: url(../images/bird0.png);
+    }
+    100% {
+        background: url(../images/bird1.png);
+    }
+}
+
+@-moz-keyframes birda {
+    0% {
+        background: url(../images/bird0.png);
+    }
+    100% {
+        background: url(../images/bird1.png);
+    }
+}
+
+@-ms-keyframes birda {
+    0% {
+        background: url(../images/bird0.png);
+    }
+    100% {
+        background: url(../images/bird1.png);
+    }
+}
+
+@-o-keyframes birda {
+    0% {
+        background: url(../images/bird0.png);
+    }
+    100% {
+        background: url(../images/bird1.png);
+    }
+}
+
+@keyframes birda {
+    0% {
+        background: url(../images/bird0.png);
+    }
+    100% {
+        background: url(../images/bird1.png);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -343px 0;
+    }
+}
+
+@-moz-keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -343px 0;
+    }
+}
+
+@-ms-keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -343px 0;
+    }
+}
+
+@-o-keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -343px 0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -343px 0;
+    }
+}
+
+@-webkit-keyframes downBird {
+    0% {
+        background: url(../images/down_bird0.png);
+    }
+    100% {
+        background: url(../images/down_bird1.png);
+    }
+}
+
+@-moz-keyframes downBird {
+    0% {
+        background: url(../images/down_bird0.png);
+    }
+    100% {
+        background: url(../images/down_bird1.png);
+    }
+}
+
+@-ms-keyframes downBird {
+    0% {
+        background: url(../images/down_bird0.png);
+    }
+    100% {
+        background: url(../images/down_bird1.png);
+    }
+}
+
+@-o-keyframes downBird {
+    0% {
+        background: url(../images/down_bird0.png);
+    }
+    100% {
+        background: url(../images/down_bird1.png);
+    }
+}
+
+@keyframes downBird {
+    0% {
+        background: url(../images/down_bird0.png);
+    }
+    100% {
+        background: url(../images/down_bird1.png);
+    }
+}
+
+@-webkit-keyframes upBird {
+    0% {
+        background: url(../images/up_bird0.png);
+    }
+    100% {
+        background: url(../images/up_bird1.png);
+    }
+}
+
+@-moz-keyframes upBird {
+    0% {
+        background: url(../images/up_bird0.png);
+    }
+    100% {
+        background: url(../images/up_bird1.png);
+    }
+}
+
+@-ms-keyframes upBird {
+    0% {
+        background: url(../images/up_bird0.png);
+    }
+    100% {
+        background: url(../images/up_bird1.png);
+    }
+}
+
+@-o-keyframes upBird {
+    0% {
+        background: url(../images/up_bird0.png);
+    }
+    100% {
+        background: url(../images/up_bird1.png);
+    }
+}
+
+@keyframes upBird {
+    0% {
+        background: url(../images/up_bird0.png);
+    }
+    100% {
+        background: url(../images/up_bird1.png);
+    }
+}
+
+@-webkit-keyframes over {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+@-moz-keyframes over {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+@-ms-keyframes over {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+@-o-keyframes over {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+@keyframes over {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
