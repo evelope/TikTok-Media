@@ -180,91 +180,91 @@
 
 @-webkit-keyframes downBird {
     0% {
-        background: url(../images/down_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/down_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @-moz-keyframes downBird {
     0% {
-        background: url(../images/down_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/down_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @-ms-keyframes downBird {
     0% {
-        background: url(../images/down_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/down_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @-o-keyframes downBird {
     0% {
-        background: url(../images/down_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/down_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @keyframes downBird {
     0% {
-        background: url(../images/down_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/down_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @-webkit-keyframes upBird {
     0% {
-        background: url(../images/up_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/up_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @-moz-keyframes upBird {
     0% {
-        background: url(../images/up_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/up_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @-ms-keyframes upBird {
     0% {
-        background: url(../images/up_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/up_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @-o-keyframes upBird {
     0% {
-        background: url(../images/up_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/up_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 
 @keyframes upBird {
     0% {
-        background: url(../images/up_bird0.png);
+        background: url(../images/bird0.png);
     }
     100% {
-        background: url(../images/up_bird1.png);
+        background: url(../images/bird1.png);
     }
 }
 

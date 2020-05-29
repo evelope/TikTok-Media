@@ -107,11 +107,11 @@ li {
     width: 40px;
     height: 29px;
     left: 50px;
-    background: url(../images/down_bird0.png);
+    background: url(../images/bird0.png);
 }
 
 .downBird {
-    background: url(../images/down_bird0.png);
+    background: url(../images/bird0.png);
     -webkit-animation: downBird .5s infinite;
     -moz-animation: downBird .5s infinite;
     -ms-animation: downBird .5s infinite;
@@ -120,7 +120,7 @@ li {
 }
 
 .upBird {
-    background: url(../images/up_bird0.png);
+    background: url(../images/bird0.png);
     -webkit-animation: upBird .5s infinite;
     -moz-animation: upBird .5s infinite;
     -ms-animation: upBird .5s infinite;
@@ -149,7 +149,7 @@ li {
     width: 100%;
     top: 0;
     height: 100px;
-    background: url(../images/up_mod.png);
+    background: url(../images/mod.png);
 }
 
 .tophead {
